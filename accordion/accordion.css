@@ -1,0 +1,16 @@
+.tree__sub-tree {
+  display: none;
+}
+
+.tree__sub-tree_open {
+  display: block;
+}
+
+.tree__item {
+  cursor: pointer;
+}
+
+.return {
+  display: block;
+  margin-bottom: 30px;
+}
