@@ -1,0 +1,10 @@
+.country {
+  border: 1px solid black;
+  padding: 12px;
+  margin: 8px;
+}
+
+.return {
+  display: block;
+  margin-bottom: 30px;
+}
