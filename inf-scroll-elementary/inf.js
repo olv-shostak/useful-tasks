@@ -29,8 +29,12 @@ function renderPartOfCountries() {
   // console.log(startIndex);
 }
 
-renderPartOfCountries();
-if (isScrollToBottom()) renderPartOfCountries();
+// renderPartOfCountries();
+for (let i = 0; i < 300; i++) {
+  if (isScrollToBottom()) {
+    renderPartOfCountries();
+  }
+}
 
 function scrollHandler() {
   if (!isScrollToBottom()) return;
